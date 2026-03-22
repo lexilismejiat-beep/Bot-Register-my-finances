@@ -12,4 +12,4 @@ jobs:
       - uses: supabase/setup-cli@v1
       - run: supabase functions deploy v1-bot --project-ref ${{ secrets.SUPABASE_PROJECT_ID }}
         env:
-          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_ACCESS_TOKEN: ${{ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkeWFlc2xjem5zeW5mZ293dXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxMjQ0NjcsImV4cCI6MjA4ODcwMDQ2N30.ZaGv6w1vl5NujaggQO1q11FJ2Z8IpC1gqGfLkS9BXbQ }}
