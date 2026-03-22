@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 
-const TELEGRAM_TOKEN = Deno.env.get("TELEGRAM_TOKEN");
+const TELEGRAM_TOKEN = Deno.env.get("8662913172:AAHpJ0i59-VjjlzLi8_tpdFlIonhNTdropQ");
 const WHATSAPP_TOKEN = Deno.env.get("WHATSAPP_TOKEN");
 
 serve(async (req) => {
